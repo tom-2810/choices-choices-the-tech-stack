@@ -22,8 +22,8 @@ Choices, choices is een onderzoek waarin ik de epic van een ander project (ander
 
 <!-- Voeg een link toe naar Github Pages 🌐-->
 Live link van het project (SvelteKit met Hygraph):
-
-toolgankelijk.netlify.app/
+[
+toolgankelijk.netlify.app/](https://toolgankelijk.netlify.app/)
 
 
 ## Kenmerken
