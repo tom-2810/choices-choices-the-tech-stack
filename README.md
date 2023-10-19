@@ -13,6 +13,7 @@
 ## Epic
 
 Een overzicht met alle partners van Vervoerregio Amsterdam.
+https://github.com/users/WesleySchorel/projects/8?pane=issue&itemId=39953859
 
 ## Beschrijving
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
