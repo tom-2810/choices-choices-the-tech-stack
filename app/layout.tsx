@@ -14,7 +14,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={styles}>
+    <html lang="en">
       <body>
         <nav><Link href="/"><img src="/vervoerregio_amsterdam_logo.svg" alt="" /></Link></nav>
         {children}
