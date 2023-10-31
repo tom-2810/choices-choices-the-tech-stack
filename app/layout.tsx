@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import './global.css'
-import styles from './styles.module.css'
+import { Navigation } from './components/Navigation'
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,9 +15,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <nav><Link href="/"><img src="/vervoerregio_amsterdam_logo.svg" alt="" /></Link></nav>
+        <Navigation />
         {children}
-        </body>
+      </body>
     </html>
   );
 }

@@ -9,6 +9,7 @@ query {
     name
     link
     _slug
+    _changed_on
   }
 }
 }

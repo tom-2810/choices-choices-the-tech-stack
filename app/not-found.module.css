@@ -1,0 +1,42 @@
+.error {
+    display: flex;
+    flex-direction: column;
+    max-width: 40rem;
+    margin: 5rem auto 0 auto;
+}
+
+.error span {
+    color: var(--c-pink);
+}
+
+.error p {
+    max-width: 60em;
+}
+
+/* content container */
+.error .content-container {
+    gap: 1rem;
+    background-color: var(--c-container);
+    padding: 2em;
+    margin: 1em 0.75em;
+    border-radius: 0.5em;
+}
+
+.error a {
+    display: inline-block;
+    margin-top: 1.75em;
+    padding: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #636363;
+    border-radius: 4px;
+    width: max-content;
+    transition: 0.3s;
+}
+
+.error a:hover {
+    opacity: 0.75;
+}
