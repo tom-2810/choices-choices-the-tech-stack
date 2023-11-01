@@ -6,6 +6,10 @@ import styles from './not-found.module.css'
 
 export default function NotFound() {
     const router = useRouter()
+    function refresh() {
+        router.push('/')
+        router.refresh()
+    }
     return (
         <div className={styles.error}>
             <h3><span>Oeps!</span> Er is iets mis gegaan.</h3>
@@ -15,7 +19,7 @@ export default function NotFound() {
                 of is er iets misgegaan tijdens het navigeren van onze tool. Probeer het opnieuw om op de juiste
                 pagina te belanden.
             </p>
-            <button onClick={() => router.push('/')}>Terug naar home</button>
+            <button onClick={refresh}>Terug naar home</button>
         </div>
     )
 }
