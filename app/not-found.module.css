@@ -22,7 +22,7 @@
     border-radius: 0.5em;
 }
 
-.error a {
+.error button {
     display: inline-block;
     margin-top: 1.75em;
     padding: 1rem;
@@ -37,6 +37,6 @@
     transition: 0.3s;
 }
 
-.error a:hover {
+.error button:hover {
     opacity: 0.75;
 }
